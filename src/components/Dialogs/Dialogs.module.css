@@ -1,0 +1,41 @@
+.dialogs {
+    display: grid;
+    grid-template-areas:
+      "d" "m"
+      "d" "add";
+    grid-template-columns: 2fr 10fr;
+    grid-template-rows: 1fr 100px;
+}
+
+.dialogsItems {
+    padding: 20px;
+    grid-area: d;
+    grid-row-start: 1;
+    grid-column-start: 1;
+}
+
+.dialogsItems a {
+    color: black;
+    text-decoration: none;
+}
+
+a.activeLink {
+    color: gold;
+}
+
+.messages {
+    padding: 40px;
+    grid-area: m;
+    grid-column-start: 2;
+    grid-row-start: 1;
+}
+
+.message {
+
+}
+
+.dialogsAddMessage {
+    grid-area: add;
+    grid-row-start: 2;
+    grid-column-start: 2;
+}

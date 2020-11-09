@@ -1,0 +1,37 @@
+.nav {
+    grid-area: n;
+    background-color: gray;
+    padding: 20px;
+    /* grid-column-start: 1;
+  grid-row-start: 2;
+  grid-row-end: 3; */
+}
+
+.item a{
+    color: white;
+    text-decoration: none;
+}
+.friendItem a{
+    color: white;
+    text-decoration: none;
+}
+
+.item a.activeLink{
+    color: gold;
+}
+
+.friendItem a.activeLink{
+    color: gold;
+}
+
+.item {
+    margin-top: 10px;
+}
+.settings {
+    margin-top: 20px;
+}
+
+.friendItem {
+    padding-top: 20px;
+    text-decoration-color: aquamarine;
+}
